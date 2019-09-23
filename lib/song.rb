@@ -22,4 +22,10 @@ class Song
     song
   end
 
+  def create_by_name(song_name)
+    song = create
+    song.name = song_name
+    song
+  end
+
 end
